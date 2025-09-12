@@ -52,10 +52,6 @@ class Fila:
             print(atual.dado)
             atual=atual.prox
 
-
-    
-
-
 def main():
     fila=Fila()
     while True:
@@ -74,9 +70,6 @@ def main():
         if coloque=="3":
             print("Imprimir todos:")
             fila.imprimaTudo()
-
-
-
 
 if __name__=="__main__":
     main()
